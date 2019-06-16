@@ -33,5 +33,5 @@ require('./app/note.routes.js')(app);
 let port = process.env.PORT || 3000;
 
 app.listen(port, () => {
-    console.log("Server is listening on 3000 port ");
+    console.log("Serwer dziala ");
 });
